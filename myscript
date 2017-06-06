@@ -1,0 +1,16 @@
+#!/bin/bash
+
+pwd
+
+echo "run script"
+
+read script
+
+echo $script
+
+if [[ $USER != "donga" ]]
+        then
+                echo "hello"
+        else
+                echo "bye"
+fi
