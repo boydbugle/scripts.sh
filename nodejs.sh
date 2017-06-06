@@ -1,3 +1,7 @@
+#!/bin/bash
+
+ cd ~
+ 
 echo "install npm"
 
 npm install -g
